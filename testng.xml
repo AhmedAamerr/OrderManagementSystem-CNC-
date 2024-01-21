@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:\Standard Automation FrameWork\src\test\java\Test\LoginTests.java">
+        <classes>
+            <class name="Test.CashAndCarryScenario">
+                <methods>
+                    <include name="T1"/>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
